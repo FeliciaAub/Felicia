@@ -1,0 +1,32 @@
+.space{
+  height:50%;
+}
+.contact-container {
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.links{
+  flex: 0 1 auto;
+  order: 2;
+  flex-wrap: nowrap;
+  display: flex;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  justify-content: center;
+
+}
+con ul li{
+    margin: 2% 2%;
+}
+con ul li a{
+  padding: 20% 20%;
+}
+con ul li img{
+  min-width: 35px;
+  max-width: 35px;
+
+}

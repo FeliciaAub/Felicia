@@ -1,0 +1,66 @@
+
+.projectList{
+  flex: 0 1 auto;
+
+  }
+
+projects ul {
+  flex: 1 1 auto;
+  height:100%;
+  width:85%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+
+projects ul li {
+  flex: 1 1 auto;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid;
+  width:25%;
+  margin: 5% 5%;
+  padding: 5% 5%;
+  box-shadow: 5px 10px #888888;
+  border-color: #696996;
+  background: #d1d1e0; /*old stuff*/
+  background: -moz-linear-gradient(top, #b4b4cb 0%, #ffffff 100%); /*Chrome, Safari4+*/
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b4b4cb), color-stop(100%, #ffffff)); /*Chrome10+, Safari5.1+*/
+  background: -o-linear-gradient(top, #b4b4cb 0%, #ffffff 100% ); /*Opera 11.10+*/
+  background: linear-gradient(to bottom, #b4b4cb 0%, #ffffff 100%  ); /*W4c standard, IE10+*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b4b4cb', endColorstr='#ffffff', GradientType=0); /*IE6-9*/
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+
+
+projects ul li:hover {
+   color: #e6e6e6;
+   margin: 0% 0%;
+   padding: 10% 10%;
+   background: #d1d1e0; /*old stuff*/
+   background: -moz-linear-gradient(top, #ffffff 0%, #d1d1e0 100%); /*Chrome, Safari4+*/
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #d1d1e0)); /*Chrome10+, Safari5.1+*/
+   background: -o-linear-gradient(top, #ffffff 0%, #d1d1e0 100% ); /*Opera 11.10+*/
+   background: linear-gradient(to bottom, #ffffff 0%, #d1d1e0 100%  ); /*W4c standard, IE10+*/
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d1d1e0', GradientType=0); /*IE6-9*/
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+
+projects ul li a,
+projects ul li a:focus,
+projects ul li a:visited,
+projects ul li a:hover,
+projects ul li a:active {
+    text-decoration: none;
+    font-size: 22px;
+    color: #666699;
+  }
