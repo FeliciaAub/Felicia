@@ -5,11 +5,12 @@ body {
   position:relative;
   min-height:100vh;
 
+
 }
 
 header {
   top: 0;
-  height:7rem;
+  height: 7rem;
 }
 
 footer {
@@ -17,7 +18,7 @@ footer {
   bottom: 0;
   width:100%;
   background-color: #666699;
-  height:2.5rem;
+  height: calc(var(--vh, 1vh) * 5);
   color: #666699;
 }
 
@@ -25,8 +26,8 @@ main {
   background-color: #ffffff;
   color: #666699;
   width: 75%;
-  padding-bottom: 2.5rem;
-  padding-top:10%;
+  padding-bottom: calc(var(--vh, 1vh) * 5);
+  padding-top: 7rem;
   margin-left:15%;
   margin-right:15%;
 }
