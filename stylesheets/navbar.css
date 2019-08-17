@@ -1,19 +1,15 @@
-header{
-  height:120px;
-}
 
 .nav{
   color: #666699;
   position: fixed;
   top: 0;
-  font-family: 'Quicksand';
   z-index: 99;
   width:100%;
-  height:120px;
+  height:7.5rem;
+  display: flex;
+  flex-direction: column;
   flex: 0 1 auto;
-  overflow: hidden;
   border: 1px solid;
-  margin: auto;
   box-shadow: 1px 1px #888888;
   border-color: #696996;
   background: #b4b4cb; /*old stuff*/
@@ -29,27 +25,25 @@ header{
 
 
 .nav-bar-left{
-  display: inline-flex;
   font-size: 32px;
   font-weight: bold;
   font-stretch: expanded;
   text-shadow: 1px 1px #660033;
-  height:45%;
   width:100%;
+  height:50%;
 }
 
 .nav-bar-right{
-  display: inline-flex;
   font-size: 22px;
-  height:45%;
   width: 100%;
+  height: 50%;
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
+
 }
 .nav-bar-left p{
   float:left;
-  margin-top: 40px;
-  margin-bottom: 10px;
-
 }
 .nav-bar-left p:hover{
   color: #33001a;
@@ -68,32 +62,27 @@ header{
 
 .nav-list{
   list-style: none;
-  text-align: center;
-  margin: 5px 5px;
-  width:30%;
-  display: flex;
-  justify-content: center;
+  display:flex;
   align-items: flex-end;
+  justify-content: center;
+  width:50%;
 }
 .nav-list-item,
 .nav-list-item:focus,
 .nav-list-item:visited,
 .nav-list-item:active {
     width: 20%;
-    height: 50%;
-    float:left;
+    display: flex;
+    justify-content: center;
     padding: unset;
     margin:10px 10px;
     color: #666699;
     background: unset;
     border: unset;
-    display: flex;
-    justify-content: center;
   }
 
 .nav-list-item:hover{
   margin:unset;
-  justify-content: center;
   padding: 10px 10px;
   background: #666699;/*old stuff*/
   background: -moz-linear-gradient(top, #666699 0%, #ffffff 100%); /*Chrome, Safari4+*/
