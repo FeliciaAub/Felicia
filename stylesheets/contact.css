@@ -1,10 +1,10 @@
-.space{
-  height:50%;
-}
+
 .contact-container {
   flex: 1 1 auto;
+  display:inline-flex;
   justify-content: center;
   align-items: center;
+  width:100%;
 
 }
 
@@ -13,18 +13,19 @@
   order: 2;
   flex-wrap: nowrap;
   display: flex;
-  text-align: center;
+  align-items: center;
   list-style: none;
   text-decoration: none;
   justify-content: center;
+  width:35%;
+  margin-left: -5%;
 
 }
 con ul li{
-    margin: 2% 2%;
+    margin: 5% 5%;
+    width:25%;
 }
-con ul li a{
-  padding: 20% 20%;
-}
+
 con ul li img{
   min-width: 35px;
   max-width: 35px;

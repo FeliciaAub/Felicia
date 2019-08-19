@@ -21,8 +21,5 @@ window.addEventListener('scroll', function() {
     document.getElementById('left').style.width = "100%";
     document.getElementById('left').style.fontSize = "32px";
     document.getElementById('border').style.height = "7.5rem";
-
-
-
   }
 });
