@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link rel="stylesheet" href="stylesheets/navbar.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/tweets.css">
+</head>
+
+<body>
+  <header class="head">
+    <div id='border' class='nav'>
+      <div id='left' class='nav-bar-left'>
+
+        <p id="name" class='pull-name'>Felicia </p>
+        <div id='hide'>
+          <p class='hide-name'> Aubert</p>
+        </div>
+      </div>
+      <div id="right" class='nav-bar-right'>
+        <ul id="list" class='nav-list'>
+          <li class='nav-list-item'>
+            <a href="index.html">Home</a>
+          </li>
+          <li class='nav-list-item'>
+            <a href="about.html">About</a>
+          </li>
+          <li class='nav-list-item'>
+            <a href="port.html">Portfolio</a>
+          </li>
+          <li class='nav-list-item'>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div id=info src ='img/graphs'>
+  <div id='hideme'>
+      <h1>Russian Troll Tweets</h1>
+      <p class='text'>fivethirtyeight released 3 million Russian troll <a href='https://github.com/fivethirtyeight/russian-troll-tweets'>tweets</a> connected to the IRA.
+
+        I thought this might be an interesting project, so I grabbed the data and decided to do a word frequecy count.
+        Here are graphs containing word counts for each month between 10-2014 to 11-2017
+        The program that created these graphs is in my <a href="https://github.com/FeliciaAub/playingwpandas">github</a></p>
+        </div>
+          <img src='img/graphs/2014-10.png' hidden=true id='images' class='enlarge' onclick="hideit()">
+        </img>
+    </div>
+
+    <ul class='graphs'>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2014-10.png');" >
+          <img src='img/graphs/2014-10.png'></img>
+          Oct 2014
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2014-11.png');" >
+          <img src='img/graphs/2014-11.png'></img>
+          Nov 2014
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2014-12.png');" >
+          <img src='img/graphs/2014-12.png'></img>
+          Dec 2014
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-01.png');" >
+          <img src='img/graphs/2015-01.png'></img>
+          Jan 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-02.png');" >
+          <img src='img/graphs/2015-02.png'></img>
+          Feb 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-03.png');" >
+          <img src='img/graphs/2015-03.png'></img>
+          Mar 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-04.png');" >
+          <img src='img/graphs/2015-04.png'></img>
+          Apr 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-05.png');" >
+          <img src='img/graphs/2015-05.png'></img>
+          May 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-06.png');" >
+          <img src='img/graphs/2015-06.png'></img>
+          Jun 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-07.png');" >
+          <img src='img/graphs/2015-07.png'></img>
+          Jul 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-08.png');" >
+          <img src='img/graphs/2015-08.png'></img>
+          Aug 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-09.png');" >
+          <img src='img/graphs/2015-09.png'></img>
+          Sep 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-10.png');" >
+          <img src='img/graphs/2015-10.png'></img>
+          Oct 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-11.png');" >
+          <img src='img/graphs/2015-11.png'></img>
+          Nov 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2015-12.png');" >
+          <img src='img/graphs/2015-12.png'></img>
+          Dec 2015
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-01.png');" >
+          <img src='img/graphs/2016-01.png'></img>
+          Jan 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-02.png');" >
+          <img src='img/graphs/2016-02.png'></img>
+          Feb 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-03.png');" >
+          <img src='img/graphs/2016-03.png'></img>
+          Mar 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-04.png');" >
+          <img src='img/graphs/2016-04.png'></img>
+          Apr 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-05.png');" >
+          <img src='img/graphs/2016-05.png'></img>
+          May 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-06.png');" >
+          <img src='img/graphs/2016-06.png'></img>
+          Jun 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-07.png');" >
+          <img src='img/graphs/2016-07.png'></img>
+          Jul 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-08.png');" >
+          <img src='img/graphs/2016-08.png'></img>
+          Aug 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-09.png');" >
+          <img src='img/graphs/2016-09.png'></img>
+          Sep 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-10.png');" >
+          <img src='img/graphs/2016-10.png'></img>
+          Oct 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-11.png');" >
+          <img src='img/graphs/2016-11.png'></img>
+          Nov 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2016-12.png');" >
+          <img src='img/graphs/2016-12.png'></img>
+          Dec 2016
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-01.png');" >
+          <img src='img/graphs/2017-01.png'></img>
+          Jan 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-02.png');" >
+          <img src='img/graphs/2017-02.png'></img>
+          Feb 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-03.png');" >
+          <img src='img/graphs/2017-03.png'></img>
+          Mar 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-04.png');" >
+          <img src='img/graphs/2017-04.png'></img>
+          Apr 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-05.png');" >
+          <img src='img/graphs/2017-05.png'></img>
+          May 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-06.png');" >
+          <img src='img/graphs/2017-06.png'></img>
+          Jun 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-07.png');" >
+          <img src='img/graphs/2017-07.png'></img>
+          Jul 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-08.png');" >
+          <img src='img/graphs/2017-08.png'></img>
+          Aug 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-09.png');" >
+          <img src='img/graphs/2016-09.png'></img>
+          Sep 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-10.png');" >
+          <img src='img/graphs/2017-10.png'></img>
+          Oct 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-11.png');" >
+          <img src='img/graphs/2017-11.png'></img>
+          Nov 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2017-12.png');" >
+          <img src='img/graphs/2017-12.png'></img>
+          Dec 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2018-01.png');" >
+          <img src='img/graphs/2018-01.png'></img>
+          Jan 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2018-02.png');" >
+          <img src='img/graphs/2018-02.png'></img>
+          Feb 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2018-03.png');" >
+          <img src='img/graphs/2018-03.png'></img>
+          Mar 2017
+        </a>
+      </li>
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2018-04.png');" >
+          <img src='img/graphs/2018-04.png'></img>
+          Apr 2017
+        </a>
+      </li>
+
+      <li>
+        <a href='#' id ='images' class='thumbnail' onclick="showImage('img/graphs/2018-05.png');" >
+          <img src='img/graphs/2018-05.png'></img>
+          May 2017
+        </a>
+      </li>
+      <li>
+    </ul>
+
+
+  </main>
+  <footer>
+    <p class='blank'>.</p>
+  </footer>
+  <script src="scripts/nav.js" chars="utf-8"></script>
+  <script >
+    function showImage(imgName) {
+      document.getElementById('images').hidden = false;
+      document.getElementById('hideme').hidden=true;
+       var curImage = document.getElementById('images');
+
+       var theSource = imgName;
+
+       curImage.src = theSource;
+
+
+    }
+    function hideit(){
+      document.getElementById('images').hidden = true;
+      document.getElementById('hideme').hidden=false;
+    }
+  </script>
+</body>
+
+</html>

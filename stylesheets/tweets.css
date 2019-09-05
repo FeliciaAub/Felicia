@@ -1,0 +1,47 @@
+#info{
+  border: 1px solid #fff;
+  padding: 0%;
+  float:right;
+  width:50%;
+  text-align: justify;
+  position: fixed;
+  left:40%;
+}
+#hideme{
+  float:right;
+  width:50%;
+}
+.text{
+  line-height: 2em;
+}
+.graphs{
+
+  width:50%;
+}
+img {
+  border: 1px solid #33001a;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(198, 151, 246, 0.5);
+}
+.thumbnail{
+  text-decoration: none;
+  color: #666699;
+  list-style: none;
+}
+li{
+  display:block;
+
+}
+
+.enlarge{
+  position: relative;
+  
+  width:100%;
+
+}
