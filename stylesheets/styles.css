@@ -33,3 +33,15 @@ main {
 .white-space{
   color: #ffffff;
 }
+
+.photo-thumb{
+  position: fixed;
+  top:9rem;
+  left: 75%;
+  height: 7rem;
+  width:7rem;
+  border: 1px solid;
+  box-shadow: 1px 1px #888888;
+  border-color: #33001a;
+  border-radius: 50%;
+}
