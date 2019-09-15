@@ -19,3 +19,10 @@ input, textarea{
   height: 7rem;
   margin-bottom:3rem;
 }
+
+summary {
+  font-size:36px;
+  outline: none;
+  list-style-image: url(/img/cat.png);
+
+}
