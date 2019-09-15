@@ -35,7 +35,7 @@ main {
 }
 
 .photo-thumb{
-  position: fixed;
+  position: absolute;
   top:9rem;
   left: 75%;
   height: 7rem;

@@ -1,0 +1,21 @@
+#aboutme{
+  text-decoration: none;
+  color:#666699;
+  font-style: italic;
+
+
+}
+
+#aboutme:hover{
+  color: #33001a;
+  font-style: italic;
+}
+
+
+input, textarea{
+  width:30%;
+}
+.comment{
+  height: 7rem;
+  margin-bottom:3rem;
+}
